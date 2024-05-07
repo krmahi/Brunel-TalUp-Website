@@ -1,0 +1,14 @@
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+::selection {
+  color: #c6e5cd;
+}
+
+:root {
+  font-family: "Manrope", sans-serif;
+  font-size: 18px;
+  --color-bg: #fdedfb;
+}

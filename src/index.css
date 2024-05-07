@@ -1,0 +1,5 @@
+@font-face {
+  font-family: "Switzer-Medium";
+  src: local("Switzer-Medium"),
+    url("./fonts/Switzer-Medium.otf") format("opentype");
+}

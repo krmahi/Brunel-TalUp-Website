@@ -1,0 +1,17 @@
+.button {
+  width: 189.56px;
+  height: 77.22px;
+  align-content: center;
+  border: 1.31px solid #eaeaea;
+  border-radius: 107.06px;
+  text-align: center;
+  cursor: pointer;
+  gap: 5.22px;
+}
+
+#white:hover {
+  background-color: #eaeaea !important;
+}
+#black:hover {
+  background-color: #4e4e4e !important;
+}

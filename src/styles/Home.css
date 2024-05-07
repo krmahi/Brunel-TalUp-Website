@@ -1,0 +1,31 @@
+.homediv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.caroseldiv {
+  display: flex;
+  margin-inline: 5rem;
+}
+
+.home1 {
+  font-family: "Covered By Your Grace", cursive;
+  color: #2da950;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 39.6px;
+  letter-spacing: -0.02em;
+}
+
+.home2 {
+  margin: auto;
+  max-width: 600px;
+  align-items: center;
+  text-align: center;
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 67.2px;
+  letter-spacing: -0.02em;
+}

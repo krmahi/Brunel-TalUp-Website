@@ -1,0 +1,22 @@
+.navbar {
+  height: 111.17px;
+  margin: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #eaeaea;
+  border-radius: 65.28px;
+}
+
+.navbar > img {
+  width: 127.94px;
+  height: 47.39px;
+  margin: 50px;
+}
+
+.buttoncontainer {
+  margin: 24px;
+  display: flex;
+  flex-direction: row;
+  gap: 15.67px;
+}
