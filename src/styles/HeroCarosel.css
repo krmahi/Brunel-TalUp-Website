@@ -1,0 +1,44 @@
+.herocarouseldiv {
+  max-width: 400px;
+  margin-block: 9rem;
+}
+
+.herocarouseldiv > p {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 120%;
+  letter-spacing: -0.02em;
+  margin-left: 5px;
+}
+
+.dots {
+  display: flex;
+  gap: 1rem;
+  margin-block: 2rem;
+  margin-left: 5px;
+  margin-bottom: 5.5rem;
+}
+
+.dot {
+  width: 10.75px;
+  height: 10.75px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.active {
+  background-color: #2da950;
+}
+
+.inactive {
+  background-color: #e4e3e3;
+}
+
+.inactive:hover {
+  background-color: #cad0cb;
+}
+
+#carouselsvg {
+  margin-left: 10px;
+}

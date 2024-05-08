@@ -2,11 +2,14 @@
   width: 189.56px;
   height: 77.22px;
   align-content: center;
+  justify-content: center;
+  align-items: center;
   border: 1.31px solid #eaeaea;
   border-radius: 107.06px;
   text-align: center;
   cursor: pointer;
   gap: 5.22px;
+  transition: all 0.3s ease;
 }
 
 #white:hover {
