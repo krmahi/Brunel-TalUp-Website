@@ -8,7 +8,7 @@ import AppButton from './AppButton';
 function NavBar() {
     
     return (
-        <BrowserRouter>
+
             <div className="navbar">
                 <img src={Logo} alt="Logo" className="logo"/>
                 <div className="buttoncontainer">
@@ -16,7 +16,7 @@ function NavBar() {
                     <Link to='/' style={{textDecoration: 'none'}}><AppButton idname="black" fweight={600} color='white' bgcolor='#1C1C1C'>Onboard Talent</AppButton></Link>
                 </div>
             </div>
-        </BrowserRouter>
+
     );
 }
 

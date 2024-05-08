@@ -1,0 +1,57 @@
+.regdiv {
+  overflow: hidden;
+}
+
+.registernav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-block: 20px;
+  margin-inline: 52.22px;
+}
+
+.navcross {
+  opacity: 0.5;
+  transition: all 0.3s ease;
+}
+
+.navcross:hover {
+  opacity: 1;
+}
+
+.formdiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 588px;
+  margin-inline: auto;
+  margin-block: 3rem;
+}
+
+.form-main {
+  display: flex;
+  flex-direction: column;
+  padding-top: 3rem;
+  row-gap: 1.5rem;
+}
+
+.form-field {
+  width: 417px;
+  height: 75px;
+  font-size: 20px;
+  font-weight: 500;
+  padding-left: 36px;
+  background: #efefef;
+  border: 1px solid rgba(0, 0, 0, 0.02);
+  border-radius: 64px;
+}
+
+.valid-email {
+  display: flex;
+  color: #ff0808;
+  font-size: 16px;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: -3%;
+}
