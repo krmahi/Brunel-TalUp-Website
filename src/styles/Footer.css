@@ -1,0 +1,27 @@
+.footerdiv {
+  display: flex;
+  background: #f5f5f5;
+  margin: 24px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 4rem;
+  padding: 50px;
+  gap: 10px;
+  border-radius: 40px;
+}
+
+.footerdiv > p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 110%;
+}
+
+.footerright {
+  display: flex;
+  gap: 20px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 110%;
+  text-decoration-line: underline;
+  cursor: pointer;
+}

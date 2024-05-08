@@ -6,8 +6,9 @@
 }
 
 .caroseldiv {
+  position: relative;
   display: flex;
-  margin-inline: 5rem;
+  justify-content: space-evenly;
 }
 
 .home1 {
@@ -20,7 +21,7 @@
 }
 
 .home2 {
-  margin: auto;
+  margin: -1%;
   max-width: 600px;
   align-items: center;
   text-align: center;

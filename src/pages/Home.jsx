@@ -3,6 +3,8 @@ import React from 'react';
 import NavBar from '../components/NavBar';
 import HomeImg from '../components/HomeImg';
 import HeroCarosel from '../components/HeroCarosel';
+import Faq from '../components/Faq';
+import Footer from '../components/Footer';
 import "../styles/Home.css"
 
 function Home() {
@@ -18,6 +20,8 @@ function Home() {
                 <HomeImg/>
                 <HeroCarosel/>
             </div>
+            <Faq/>
+            <Footer/>
         </>
     );
 }
