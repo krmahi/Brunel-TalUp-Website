@@ -14,8 +14,14 @@ html {
   -ms-overflow-style: none; /* For Internet Explorer and Edge */
 }
 
+::-moz-selection {
+  /* for Firefox */
+  background: #c1f2cc;
+}
+
 ::selection {
-  color: #c6e5cd;
+  color: #359064;
+  background: #c1f2cc;
 }
 
 :root {
