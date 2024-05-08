@@ -1,0 +1,41 @@
+.divacc {
+  max-width: 700px;
+  border-bottom: 1px solid #d7d7d7;
+}
+
+.accbutton {
+  background: none;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  padding-block: 2.5rem;
+  border: none;
+  cursor: pointer;
+}
+
+.accquestion {
+  font-family: "Manrope", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 140%;
+  color: #1c1c1c;
+}
+
+.accicon {
+  font-size: 24px;
+  color: #232323;
+  margin-inline: 3rem;
+}
+
+.accanswer {
+  color: #617275;
+  font-weight: 400;
+  font-size: 15px;
+  max-width: 600px;
+  align-self: stretch;
+  line-height: 160%;
+  padding-inline: 6px;
+  margin-top: -4%;
+}
