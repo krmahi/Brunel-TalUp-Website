@@ -1,0 +1,44 @@
+.successdiv {
+  overflow: hidden;
+}
+
+.successnav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-block: 35px;
+  margin-inline: 52.22px;
+}
+
+.success-message {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 718px;
+  margin-inline: auto;
+  margin-top: 12rem;
+}
+
+.home3 {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #727272;
+  font-weight: 500;
+  font-size: 27px;
+  line-height: 130%;
+}
+
+.redirect {
+  color: #727272;
+  position: absolute;
+  bottom: 20px;
+}
+
+.redirect > span {
+  color: #1c1c1c;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 130%;
+}
