@@ -12,6 +12,7 @@
 
 .navcross {
   opacity: 0.5;
+  cursor: none;
   transition: all 0.3s ease;
 }
 

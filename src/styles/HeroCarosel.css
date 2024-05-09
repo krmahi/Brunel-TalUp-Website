@@ -23,7 +23,7 @@
   width: 10.75px;
   height: 10.75px;
   border-radius: 50%;
-  cursor: pointer;
+  cursor: none;
   transition: all 0.3s ease;
 }
 

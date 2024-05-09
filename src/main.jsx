@@ -10,6 +10,7 @@ import './index.css'
 import Register from './pages/Register.jsx'
 import Success from './pages/Success.jsx'
 
+
 const router = createBrowserRouter([
   {
       path: "/",

@@ -1,10 +1,20 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import { useGSAP } from "@gsap/react";
+import gsap from "gsap";
 
 import appLogo from "../assets/AppLogo.svg";
+import Cursor from "../components/Cursor";
 import "../styles/Success.css";
 
 function Success() {
+
+  useGSAP(() => {
+    gsap.set('body', { autoAlpha: 0 });
+    gsap.to('body', { autoAlpha: 1, duration: 1 });
+  })
+
+  const [isHovered, setIsHovered] = useState(false);
   const [count, setCount] = useState(5);
   const navigate = useNavigate();
 
@@ -19,6 +29,7 @@ function Success() {
   }
   return (
     <div className="successdiv">
+      <Cursor isHovered = {isHovered}/>
       {/* navbar */}
       <nav className="successnav">
         <img src={appLogo} alt="app logo" />
@@ -41,7 +52,7 @@ function Success() {
           </svg>
         </div>
         <h1 className="home1">Success Submitted</h1>
-        <h1 className="home2">Congratulations</h1>
+        <h1 onMouseEnter = {() => {setIsHovered(true)}} className="home2" onMouseLeave={() => {setIsHovered(false)}}>Congratulations</h1>
         <p className="home3">
           Your request has been successfully submitted to us. We will validate
           your information and reach out to your shortly with updates

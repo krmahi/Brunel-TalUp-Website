@@ -4,12 +4,12 @@
 }
 
 /* hidding scrollbar */
-
 ::-webkit-scrollbar {
   display: none;
 }
 
 html {
+  scroll-behavior: smooth; /* For smooth scrolling {not supported for all browsers}*/
   scrollbar-width: none; /* For Firefox */
   -ms-overflow-style: none; /* For Internet Explorer and Edge */
 }
@@ -25,9 +25,16 @@ html {
 }
 
 :root {
+  cursor: none;
   font-family: "Manrope", sans-serif;
   color: #1c1c1c;
   font-size: 18px;
   overflow-x: hidden;
   --color-bg: #fdedfb;
+}
+
+img {
+  pointer-events: none;
+  -webkit-user-select: none;
+  user-select: none;
 }

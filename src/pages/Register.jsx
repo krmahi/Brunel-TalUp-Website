@@ -1,12 +1,21 @@
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
+import { useGSAP } from "@gsap/react";
+import gsap from "gsap";
 
 import AppLogo from "../assets/AppLogo.svg";
 import Cross from "../assets/cross.svg";
 import "../styles/Register.css";
 import AppButton from "../components/AppButton";
+import Cursor from "../components/Cursor";
 
 const Register = () => {
+  useGSAP(() => {
+    gsap.set('body', { autoAlpha: 0.6 });
+    gsap.to('body', { autoAlpha: 1, duration: 0.5});
+  })
+
+  const [isHovered, setIsHovered] = useState(false);
   const [isDisabled, setIsDisabled] = useState(true);
   const [emailValid, setEmailValid] = useState(true);
   const [name, setName] = useState("");
@@ -37,7 +46,7 @@ const Register = () => {
 
   return (
     <div className="regdiv">
-      
+      <Cursor isHovered={isHovered}/>
       {/* navbar */}
       <nav className="registernav">
         <img src={AppLogo} alt="app logo" />
@@ -87,8 +96,9 @@ const Register = () => {
               Enter a valid email address
             </p>
           )}
-
-          <AppButton onClick = {handleSubmit} width = {"100%"} idname={`${isDisabled ? 'disabled' : 'black'}`} disabled={isDisabled}>Submit</AppButton>
+        <div  onMouseEnter={() => {setIsHovered(true)}} onMouseLeave={() => {setIsHovered(false)}}>
+          <AppButton type = 'submit' width={"100%"} idname={`${isDisabled ? 'disabled' : 'black'}`} disabled={isDisabled}>Submit</AppButton>
+        </div>
         </form>
       </div>
     </div>
