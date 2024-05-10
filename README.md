@@ -1,5 +1,5 @@
 ```
-Thence Assesment
+Thence Assessment
 ```
 
 ***
